@@ -67,7 +67,7 @@ s.starttls()
 
 
 # Authentication 
-s.login(fromaddr, "Shivani262@") 
+s.login(fromaddr, "password") 
 
 # Converts the Multipart msg into a string 
 text = msg.as_string() 
